@@ -1,0 +1,29 @@
+Anwendungsbeispiele:
+Geschlecht, Monat, Namen
+
+public enum Geschlecht{
+    maennlich,weiblich,divers
+}
+
+public enum Monat{
+    Janur,
+    Februar,
+    Maerz,
+    April,
+    Mai,
+    Juni,
+    Juli,
+    August,
+    September,
+    Oktober,
+    November,
+    Dezember
+}
+
+public enum Vorname{
+    Alexander,
+    Moritz,
+    Stephan,
+    Jan,
+    Nina
+}

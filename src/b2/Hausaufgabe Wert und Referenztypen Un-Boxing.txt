@@ -1,0 +1,12 @@
+Werttypen: Primitive Datentypen
+werden nicht als Speicheradresse an eine Funktion übergeben sondern als Wert
+Wert liegt auf dem Stack
+
+Referenztypen/Verweistypen: Klassenobjekt (String/Arrays/Klassentypen)
+
+Boxing/Unboxing:
+Eine Konvertierung eines Wertetyps zu einem Referenztyp wird als Boxing bezeichnet.
+Unboxing ist die entgegengesetzte Konvertierung, also einer Referenz zu einem Wert.
+    int a = 1548;    // Wertetyp
+    object o = a;    // boxing
+    int b = (int)o;  // unboxing (mit Casting)
